@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-24T04:15:10.173900+00:00",
+    "total_active_exploits": 30,
+    "feed_source": "CISA Known Exploited Vulnerabilities Catalog",
+    "schema_version": "1.0.0"
+  },
+  "exploits": [
+    {
+      "cve_id": "CVE-2020-29583",
+      "vendor_project": "Zyxel",
+      "product": "Multiple Products",
+      "vulnerability_name": "Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Zyxel firewalls (ATP, USG, VM) and AP Controllers (NXC2500 and NXC5500) contain a use of hard-coded credentials vulnerability in an undocumented account (\"zyfwp\") with an unchangeable password.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2019-8394",
+      "vendor_project": "Zoho",
+      "product": "ManageEngine",
+      "vulnerability_name": "Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Zoho ManageEngine ServiceDesk Plus (SDP) contains an unspecified vulnerability that allows remote users to upload files via login page customization.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-10189",
+      "vendor_project": "Zoho",
+      "product": "ManageEngine",
+      "vulnerability_name": "Zoho ManageEngine Desktop Central File Upload Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Zoho ManageEngine Desktop Central contains a file upload vulnerability that allows for unauthenticated remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2021-40539",
+      "vendor_project": "Zoho",
+      "product": "ManageEngine",
+      "vulnerability_name": "Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Zoho ManageEngine ADSelfService Plus contains an authentication bypass vulnerability affecting the REST API URLs which allow for remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Known"
+    },
+    {
+      "cve_id": "CVE-2021-27561",
+      "vendor_project": "Yealink",
+      "product": "Device Management",
+      "vulnerability_name": "Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Yealink Device Management contains a server-side request forgery (SSRF) vulnerability that allows for unauthenticated remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2019-9978",
+      "vendor_project": "WordPress",
+      "product": "Social Warfare Plugin",
+      "vulnerability_name": "WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "WordPress Social Warfare plugin contains a cross-site scripting (XSS) vulnerability that allows for remote code execution. This vulnerability affects Social Warfare and Social Warfare Pro.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-11738",
+      "vendor_project": "WordPress",
+      "product": "Snap Creek Duplicator Plugin",
+      "vulnerability_name": "WordPress Snap Creek Duplicator Plugin File Download Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "WordPress Snap Creek Duplicator plugin contains a file download vulnerability when an administrator creates a new copy of their site that allows an attacker to download the generated files from their Wordpress dashboard. This vulnerability affects Duplicator and Dulplicator Pro.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-25213",
+      "vendor_project": "WordPress",
+      "product": "File Manager Plugin",
+      "vulnerability_name": "WordPress File Manager Plugin Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "WordPress File Manager plugin contains a remote code execution vulnerability that allows unauthenticated users to execute PHP code and upload malicious files on a target site.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-4006",
+      "vendor_project": "VMware",
+      "product": "Multiple Products",
+      "vulnerability_name": "Multiple VMware Products Command Injection Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector contain a command injection vulnerability. An attacker with network access to the administrative configurator on port 8443 and a valid password for the configurator administrator account can execute commands with unrestricted privileges on the underlying operating system.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2021-21985",
+      "vendor_project": "VMware",
+      "product": "vCenter Server",
+      "vulnerability_name": "VMware vCenter Server Improper Input Validation Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware vSphere Client contains an improper input validation vulnerability in the Virtual SAN Health Check plug-in, which is enabled by default in vCenter Server, which allows for remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Known"
+    },
+    {
+      "cve_id": "CVE-2021-21972",
+      "vendor_project": "VMware",
+      "product": "vCenter Server",
+      "vulnerability_name": "VMware vCenter Server Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware vCenter Server vSphere Client contains a remote code execution vulnerability in a vCenter Server plugin which allows an attacker with network access to port 443 to execute commands with unrestricted privileges on the underlying operating system.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Known"
+    },
+    {
+      "cve_id": "CVE-2020-3952",
+      "vendor_project": "VMware",
+      "product": "vCenter Server",
+      "vulnerability_name": "VMware vCenter Server Information Disclosure Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware vCenter Server contains an information disclosure vulnerability in the VMware Directory Service (vmdir) when the Platform Services Controller (PSC) does not correctly implement access controls. Successful exploitation allows an attacker with network access to port 389 to extract sensitive information.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2021-22005",
+      "vendor_project": "VMware",
+      "product": "vCenter Server",
+      "vulnerability_name": "VMware vCenter Server File Upload Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware vCenter Server contains a file upload vulnerability in the Analytics service that allows a user with network access to port 443 to execute code.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Known"
+    },
+    {
+      "cve_id": "CVE-2020-3950",
+      "vendor_project": "VMware",
+      "product": "Multiple Products",
+      "vulnerability_name": "VMware Multiple Products Privilege Escalation Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware Fusion, Remote Console (VMRC) for Mac, and Horizon Client for Mac contain a privilege escalation vulnerability due to improper use of setuid binaries that allows attackers to escalate privileges to root.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-3992",
+      "vendor_project": "VMware",
+      "product": "ESXi",
+      "vulnerability_name": "VMware ESXi OpenSLP Use-After-Free Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware ESXi OpenSLP contains a use-after-free vulnerability that allows an attacker residing in the management network with access to port 427 to perform remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Known"
+    },
+    {
+      "cve_id": "CVE-2019-5544",
+      "vendor_project": "VMware",
+      "product": "VMware ESXi and Horizon DaaS",
+      "vulnerability_name": "VMware ESXi and Horizon DaaS OpenSLP Heap-Based Buffer Overflow Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "VMware ESXi and Horizon Desktop as a Service (DaaS) OpenSLP contains a heap-based buffer overflow vulnerability that allows an attacker with network access to port 427 to overwrite the heap of the OpenSLP service to perform remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Known"
+    },
+    {
+      "cve_id": "CVE-2020-17496",
+      "vendor_project": "vBulletin",
+      "product": "vBulletin",
+      "vulnerability_name": "vBulletin PHP Module Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "The PHP module within vBulletin contains an unspecified vulnerability that allows for remote code execution via crafted subWidgets data in an ajax/render/widget_tabbedcontainer_tab_panel request. This CVE ID resolves an incomplete patch for CVE-2019-16759.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2019-16759",
+      "vendor_project": "vBulletin",
+      "product": "vBulletin",
+      "vulnerability_name": "vBulletin PHP Module Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "The PHP module within vBulletin contains an unspecified vulnerability that allows for remote code execution via the widgetConfig[code] parameter in an ajax/render/widget_php routestring request.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-5847",
+      "vendor_project": "Unraid",
+      "product": "Unraid",
+      "vulnerability_name": "Unraid Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Unraid contains a vulnerability due to the insecure use of the extract PHP function that can be abused to execute remote code as root. This CVE is chainable with CVE-2020-5849 for initial access.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-5849",
+      "vendor_project": "Unraid",
+      "product": "Unraid",
+      "vulnerability_name": "Unraid Authentication Bypass Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Unraid contains an authentication bypass vulnerability that allows attackers to gain access to the administrative interface. This CVE is chainable with CVE-2020-5847 for remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2019-20085",
+      "vendor_project": "TVT",
+      "product": "NVMS-1000",
+      "vulnerability_name": "TVT NVMS-1000 Directory Traversal Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "TVT devices utilizing NVMS-1000 software contain a directory traversal vulnerability via GET /.. requests.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2021-36741",
+      "vendor_project": "Trend Micro",
+      "product": "Apex One, Apex One as a Service, and Worry-Free Business Security",
+      "vulnerability_name": "Trend Micro Multiple Products Improper Input Validation Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro Apex One, Apex One as a Service, and Worry-Free Business Security contain an improper input validation vulnerability that allows a remote attacker to upload files.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2021-36742",
+      "vendor_project": "Trend Micro",
+      "product": "Apex One, Apex One as a Service, and Worry-Free Business Security",
+      "vulnerability_name": "Trend Micro Multiple Products Improper Input Validation Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro Apex One, Apex One as a Service, and Worry-Free Business Security contain an improper input validation vulnerability that allows for privilege escalation.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-8599",
+      "vendor_project": "Trend Micro",
+      "product": "Apex One and OfficeScan",
+      "vulnerability_name": "Trend Micro Apex One and OfficeScan Authentication Bypass Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro Apex One and OfficeScan server contain a vulnerable EXE file that could allow a remote attacker to write data to a path on affected installations and bypass root login.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-24557",
+      "vendor_project": "Trend Micro",
+      "product": "Apex One, OfficeScan, and Worry-Free Business Security",
+      "vulnerability_name": "Trend Micro Multiple Products Improper Access Control Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro Apex One, OfficeScan, and Worry-Free Business Security on Microsoft Windows contain an improper access control vulnerability that may allow an attacker to manipulate a particular product folder to disable the security temporarily, abuse a specific Windows function, and attain privilege escalation.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-8468",
+      "vendor_project": "Trend Micro",
+      "product": "Apex One, OfficeScan and Worry-Free Business Security Agents",
+      "vulnerability_name": "Trend Micro Multiple Products Content Validation Escape Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro Apex One, OfficeScan, and Worry-Free Business Security agents contain a content validation escape vulnerability that could allow an attacker to manipulate certain agent client components.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2020-8467",
+      "vendor_project": "Trend Micro",
+      "product": "Apex One and OfficeScan",
+      "vulnerability_name": "Trend Micro Apex One and OfficeScan Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro Apex One and OfficeScan contain an unspecified vulnerability within a migration tool component that allows for remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2019-18187",
+      "vendor_project": "Trend Micro",
+      "product": "OfficeScan",
+      "vulnerability_name": "Trend Micro OfficeScan Directory Traversal Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "Trend Micro OfficeScan contains a directory traversal vulnerability by extracting files from a zip file to a specific folder on the OfficeScan server, leading to remote code execution.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2019-9082",
+      "vendor_project": "ThinkPHP",
+      "product": "ThinkPHP",
+      "vulnerability_name": "ThinkPHP Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "ThinkPHP contains an unspecified vulnerability that allows for remote code execution via public//?s=index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]= followed by the command.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    },
+    {
+      "cve_id": "CVE-2018-20062",
+      "vendor_project": "ThinkPHP",
+      "product": "noneCms",
+      "vulnerability_name": "ThinkPHP \"noneCms\" Remote Code Execution Vulnerability",
+      "date_added": "2021-11-03",
+      "short_description": "ThinkPHP \"noneCms\" contains an unspecified vulnerability that allows for remote code execution through crafted use of the filter parameter.",
+      "required_action": "Apply updates per vendor instructions.",
+      "known_ransomware_use": "Unknown"
+    }
+  ]
+}
