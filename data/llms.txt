@@ -1,5 +1,5 @@
 # Active Security Exploits & Zero-Day Wire
-> Last updated: 2026-11-26T21:18:55.162451+00:00 | Source: CISA KEV Catalog
+> Last updated: 2026-11-27T07:56:03.475705+00:00 | Source: CISA KEV Catalog
 
 ## Critical Active Exploits in the Wild
 - **[CVE-2020-29583] Zyxel - Multiple Products**
